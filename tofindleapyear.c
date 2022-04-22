@@ -3,7 +3,7 @@
 int main()
 {    
     int year;      
-    printf("Enter a year");
+    printf("Enter a year:");
     scanf("%d", &year);
           
     if ( year%400 == 0)      
@@ -20,3 +20,10 @@ int main()
     
     return 0;    
 }
+
+/*Out put:
+Enter a year: 2017
+2017 is not a leap year
+
+Enter a year: 2020
+2020 is a leap year*/
